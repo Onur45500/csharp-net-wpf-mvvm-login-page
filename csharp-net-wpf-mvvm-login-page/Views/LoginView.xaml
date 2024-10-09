@@ -28,5 +28,35 @@
                 <GradientStop Color="#1B1448" Offset="0.75"/>
             </LinearGradientBrush>
         </Border.Background>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                <TextBlock Text="Username"
+                           Foreground="White"/>
+                <TextBox Background="Transparent"
+                         BorderThickness="0,0,0,1"
+                         Foreground="White"
+                         VerticalContentAlignment="Center"/>
+                <TextBlock Text="Password"
+                         Foreground="White"/>
+                <PasswordBox Background="Transparent"
+                         BorderThickness="0,0,0,1"
+                         Foreground="White"
+                         VerticalContentAlignment="Center"/>
+
+                <Button Content="Submit"
+                        Background="White"
+                        Margin="5"
+                        Width="100"
+                        Height="25"/>
+            </StackPanel>
+            
+        </Grid>
     </Border>
 </Window>
