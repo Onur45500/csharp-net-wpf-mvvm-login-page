@@ -9,4 +9,10 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="CustomControls\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+
 </Project>
